@@ -8,14 +8,7 @@
           (if (> (last vector) number)
             vector
             (recur
-              (sum-end vector)
-            )
-          )
-        )
-      )
-    )
-  )
-)
+              (sum-end vector))))))))
 
 ;; Project Euler 02
 (println (sum-of-even-fib-array-lower-than 4000000)) ;; => 4613732
